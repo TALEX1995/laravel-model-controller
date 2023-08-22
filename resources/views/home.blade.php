@@ -19,9 +19,9 @@
         <div class="col mt-3">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">{{ $movie['original_title'] }}</h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary">{{ $movie['title'] }}</h6>
-              <p class="card-text">Nation: {{ ucfirst($movie['nationality']) }}</p>
+              <h5 class="card-title">{{ $movie->original_title }}</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">{{ $movie->title }}</h6>
+              <p class="card-text">Nation: {{ ucfirst($movie->nationality) }}</p>
               <a href="#" class="card-link">Card link</a>
             </div>
           </div>
