@@ -14,8 +14,8 @@ use App\Http\Controllers\MovieController;
 |
 */
 
-// Route books list
+// Route movie list
 Route::get('/', [MovieController::class, 'index'])->name('movie');
 
-// Route book detail
+// Route movie detail
 Route::get('/movies/{movie}', [MovieController::class, 'show'])->name('movies.show');
